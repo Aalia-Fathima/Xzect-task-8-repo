@@ -3,9 +3,9 @@ In this task, I created a home page for a website using Next.js,
 
 ## Technologies Used:
 
-**Next.js:** 
-**React:** 
-**Bootstrap:** 
+**Next.js** <br>
+**React** <br>
+**Bootstrap** <br>
 
 ## Setup Instructions:
 
