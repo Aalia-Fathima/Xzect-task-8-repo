@@ -4,8 +4,6 @@ import React from 'react';
 import styles from "../page.module.css";
 import Footer from "@/components/Footer.js"
 import Header from "@/components/Header.js"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot, faEnvelope, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import CollapsibleDiv from '@/components/CollapseDiv.js';
 export default function Contact() {
     return (
@@ -13,7 +11,8 @@ export default function Contact() {
             <Header />
             <main>
                 <section className="position-relative">
-                    <img src="contact.png" alt="Background Image" className="w-100" style={{ height: "50vh", objectFit: "cover" }} />
+                <Image src="/contact.png" alt="image"  width={400} height={450} className="w-100" style={{ height: "50vh", objectFit: "cover" }}/>
+
                     <div className={`position-absolute top-50 start-50 translate-middle text-center ${styles.overlays}`}>
                         <div className={styles.content}>
                             <h1 className={styles.h1}>Frequently Asked Question</h1>

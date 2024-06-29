@@ -56,7 +56,8 @@ export default function ArticleHome() {
                 <div className="row">
                     <div className="col-md-4 mb-4">
                         <div className="card h-100 shadow-sm">
-                            <img src="roof (3).png" alt="Card image" className="card-img-top" />
+                        <Image src="/roof (3).png" alt="Worker Image"  width={500} height={350} className="card-img-top"/>
+                            
                             <div className="card-body">
                                 <h2 className="card-title" style={{ color: "black" }}>How to Handle Unexpected Situations on Road</h2>
                                 <p className={`${styles.carddescription} ${styles.p}`}>by Admin 2 Comments</p>
@@ -68,7 +69,8 @@ export default function ArticleHome() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card h-100 shadow-sm">
-                            <img src="roof (2).png" alt="Card image" className="card-img-top" />
+                        <Image src="/roof (2).png" alt="Worker Image"  width={500} height={350} className="card-img-top"/>
+                            
                             <div className="card-body">
                                 <h2 className="card-title" style={{ color: "black" }}>How to Handle Unexpected Situations on Road</h2>
                                 <p className={`${styles.carddescription} ${styles.p}`}>by Admin 2 Comments</p>
@@ -80,7 +82,8 @@ export default function ArticleHome() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card h-100 shadow-sm">
-                            <img src="roofer.png" alt="Card image" className="card-img-top" />
+                        <Image src="/roofer.png" alt="Worker Image" width={500} height={350} className="card-img-top"/>
+                            
                             <div className="card-body">
                                 <h2 className="card-title" style={{ color: "black" }}>How to Handle Unexpected Situations on Road</h2>
                                 <p className={`${styles.carddescription} ${styles.p}`}>by Admin 2 Comments</p>

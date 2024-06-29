@@ -7,6 +7,7 @@ import Header from "@/components/Header.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faEnvelope, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import dynamic from 'next/dynamic';
+import next from 'next';
 const Map = dynamic(() => import('@/components/Map'), { ssr: false });
 
 export default function Contact() {
@@ -15,7 +16,8 @@ export default function Contact() {
             <Header />
             <main>
                 <section className="position-relative">
-                    <img src="contact.png" alt="Background Image" className="w-100" style={{ height: "50vh", objectFit: "cover" }} />
+                    <Image src="/contact.png" alt="image" width={400} height={450} className="w-100" style={{ height: "50vh", objectFit: "cover" }} />
+                    
                     <div className={`position-absolute top-50 start-50 translate-middle text-center ${styles.overlays}`}>
                         <div className={styles.content}>
                             <h1 className={styles.h1}>CONTACT US</h1>
@@ -57,7 +59,7 @@ export default function Contact() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 text-center p-5" style={{backgroundColor:"#e5e9f0"}}>
+                        <div className="col-md-6 text-center p-5" style={{ backgroundColor: "#e5e9f0" }}>
                             <p className="text-danger">BOOKING FORM</p>
                             <h3>Send Us Message</h3>
                             <form action="#" method="POST" className="mt-4">

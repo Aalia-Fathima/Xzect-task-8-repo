@@ -6,7 +6,8 @@ export default function ContainerHome() {
         <>
             <section>
                 <div className={styles.container}>
-                    <img src="roofer.png" alt="Background Image" className={styles.backgroundimage} />
+                <Image src="/roofer.png" alt="Worker Image" width={300} height={200} className={styles.backgroundimage}/>
+
                     <div className={styles.overlay}>
                         <div className={styles.content}>
                             <h1 className={styles.h1}>BEST ROOFING SERVICE & CONSULTING</h1>

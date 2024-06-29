@@ -9,7 +9,8 @@ export default function Services() {
             <main>
                 <section>
                     <div className={styles.container}>
-                        <img src="roof (1).png" alt="Background Image" className={styles.backgroundimage} style={{height:"50vh"}}/>
+                    <Image src="/roof (1).png" alt="image"  width={400} height={450} className={styles.backgroundimage} style={{height:"50vh"}}/>
+                       
                         <div className={styles.overlays}>
                             <div className={styles.content}>
                                 <h1 className={styles.h1}>OUR SERVICES</h1>
@@ -24,7 +25,8 @@ export default function Services() {
                         <div className="row">
                             <div className="col-md-4 mb-4">
                                 <div className="card h-100 shadow-sm">
-                                    <img src="services (1).png" alt="Card image" className="card-img-top" />
+                                <Image src="/services (1).png" alt="image"  width={400} height={250} className="card-img-top"/>
+                                  
                                     <div className="card-body">
                                         <h2 className="card-title" style={{ color: "black" }}>Roofing Layer</h2>
                                         <p className={`${styles.carddescription} ${styles.p}`}>Tincidunt Maur nemi sit Interdum praesent eget morbi lacinia volutpat pellentesque Tincidunt aurna suspit.</p>
@@ -35,7 +37,8 @@ export default function Services() {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="card h-100 shadow-sm">
-                                    <img src="services (2).png" alt="Card image" className="card-img-top" />
+                                <Image src="/services (2).png" alt="image"  width={400} height={250} className="card-img-top"/>
+                                    
                                     <div className="card-body">
                                         <h2 className="card-title" style={{ color: "black" }}>Damage Repair</h2>
                                         <p className={`${styles.carddescription} ${styles.p}`}>Tincidunt Maur nemi sit Interdum praesent eget morbi lacinia volutpat pellentesque Tincidunt aurna suspit.</p>
@@ -46,7 +49,8 @@ export default function Services() {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="card h-100 shadow-sm">
-                                    <img src="services (3).png" alt="Card image" className="card-img-top" />
+                                <Image src="/services (3).png" alt="image"  width={400} height={250} className="card-img-top"/>
+                                   
                                     <div className="card-body">
                                         <h2 className="card-title" style={{ color: "black" }}>Roof Cornering</h2>
                                         <p className={`${styles.carddescription} ${styles.p}`}>Tincidunt Maur nemi sit Interdum praesent eget morbi lacinia volutpat pellentesque Tincidunt aurna suspit.</p>
@@ -58,7 +62,8 @@ export default function Services() {
 
                             <div className="col-md-4 mb-4">
                                 <div className="card h-100 shadow-sm">
-                                    <img src="services (4).png" alt="Card image" className="card-img-top" />
+                                <Image src="/services (4).png" alt="image"  width={400} height={250} className="card-img-top"/>
+                                   
                                     <div className="card-body">
                                         <h2 className="card-title" style={{ color: "black" }}>Siding Install</h2>
                                         <p className={`${styles.carddescription} ${styles.p}`}>Suspendisse varius etiam est vitae dui tempus nec vitae orci sodales metus velit nec at diam in sed.</p>
@@ -69,7 +74,8 @@ export default function Services() {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="card h-100 shadow-sm">
-                                    <img src="services (5).png" alt="Card image" className="card-img-top" />
+                                <Image src="/services (5).png" alt="image"  width={400} height={250} className="card-img-top"/>
+                                 
                                     <div className="card-body">
                                         <h2 className="card-title" style={{ color: "black" }}>Corner Fixing</h2>
                                         <p className={`${styles.carddescription} ${styles.p}`}>Suspendisse varius etiam est vitae dui tempus nec vitae orci sodales metus velit nec at diam in sed.</p>
@@ -80,7 +86,8 @@ export default function Services() {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="card h-100 shadow-sm">
-                                    <img src="services (6).png" alt="Card image" className="card-img-top" />
+                                <Image src="/services (6).png" alt="image"  width={400} height={250} className="card-img-top"/>
+                                 
                                     <div className="card-body">
                                         <h2 className="card-title" style={{ color: "black" }}>Metal Roofing</h2>
                                         <p className={`${styles.carddescription} ${styles.p}`}>Suspendisse varius etiam est vitae dui tempus nec vitae orci sodales metus velit nec at diam in sed.</p>

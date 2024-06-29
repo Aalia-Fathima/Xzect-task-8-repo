@@ -115,16 +115,17 @@ import { faFacebookF, faTwitter, faLinkedin, faInstagram, faPinterestP } from '@
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            <br/>
+            <br />
             <div className="container my-5">
                 <div className="row justify-content-center">
                     <div className={styles.container + "col-12 col-md-10 col-lg-8 position-relative"} style={{ boxShadow: '0 4px 8px whitesmoke' }}>
-                        <img src="house.png" alt="Background Image" className={styles.backgroundimage + "img-fluid w-100"} style={{ height: '40vh' }} />
+                        <Image src="/house.png" alt="image" width={400} height={450} className={styles.backgroundimage + "img-fluid w-100"} style={{ height: '40vh' }} />
+
                         <div className={styles.overlay + " d-flex align-items-center justify-content-center"} style={{ height: "100%" }}>
                             <div className={styles.content + "text-center text-white"}>
                                 <h1>Our Newsletters</h1>
                                 <form action="#" method="POST" className="d-flex flex-column align-items-center">
-                                    <input type="email" name="email" className="form-control mb-3" placeholder="Your Email" required style={{width:"20vw"}}/>
+                                    <input type="email" name="email" className="form-control mb-3" placeholder="Your Email" required style={{ width: "20vw" }} />
                                     <button type="submit" className="btn btn-primary">SUBSCRIBE NOW</button>
                                 </form>
                             </div>
@@ -132,7 +133,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-<br/>
+            <br />
             <div className="container my-5">
                 <div className="row justify-content-between align-items-center">
                     <div className="col-auto d-flex align-items-center">
@@ -151,9 +152,9 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-<br/>
+            <br />
             <hr className="my-4" style={{ borderTop: '2px solid #666' }} />
-<br/><br/>
+            <br /><br />
             <div className="container my-5">
                 <div className="row text-white text-center text-md-left">
                     <div className="col-md-3 mb-4 mb-md-0">
@@ -185,12 +186,12 @@ export default function Footer() {
                     <div className="col-md-3">
                         <h2>Follow Instagram</h2>
                         <div className="d-flex flex-wrap align-items-center justify-content-center">
-                            <img src="roof (2).png" alt="Worker Image" className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
-                            <img src="roof (3).png" alt="Worker Image" className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
-                            <img src="roof (1).png" alt="Worker Image" className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
-                            <img src="roofer.png" alt="Background Image" className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
-                            <img src="roofer.png" alt="Background Image" className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
-                            <img src="roofer.png" alt="Background Image" className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
+                            <Image src="/roof (2).png" alt="image" width={400} height={450} className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
+                            <Image src="/roof (3).png" alt="image" width={400} height={450} className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
+                            <Image src="/roof (1).png" alt="image" width={400} height={450} className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
+                            <Image src="/house.png" alt="image" width={400} height={450} className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
+                            <Image src="/services (3).png" alt="image" width={400} height={450} className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
+                            <Image src="/services (5).png" alt="image" width={400} height={450} className="img-thumbnail m-1" style={{ height: '100px', width: '100px' }} />
                         </div>
                     </div>
                 </div>

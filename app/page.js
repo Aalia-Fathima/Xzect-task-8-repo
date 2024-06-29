@@ -1,5 +1,4 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
 import Footer from "../components/Footer.js"
 import ArticleHome from "../components/ArticleHome.js"
 import ExpertHome from "@/components/ExpertHome";
