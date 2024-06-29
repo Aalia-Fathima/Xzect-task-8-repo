@@ -14,8 +14,7 @@ To run this project locally, follow these steps:
 ### Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/task-8-nextjs.git
-cd task-8-nextjs
+git clone https://github.com/Aalia-Fathima/Xzect-task-8-repo.git
 ```
 ### Install dependencies:
 ```sh
