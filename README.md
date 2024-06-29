@@ -26,3 +26,6 @@ npm run dev
 ```
 ### Open your browser:
 Navigate to http://localhost:3000 to view the home page.
+
+### License
+This project is licensed under the MIT License.
