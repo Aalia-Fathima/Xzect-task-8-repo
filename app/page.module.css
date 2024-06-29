@@ -1,230 +1,334 @@
-.main {
+.header {
+  color: "white";
+  background-color: #fff;
+}
+
+.contactinfo {
+  background-color: #333;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 5px;
 }
 
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+.li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.a {
+  color: black;
+  text-decoration: none;
+}
+
+.buttons {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero {
+  /* background: url('/gram.png') no-repeat center center/cover; */
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.services,
+.about,
+.testimonials {
+  padding: 50px;
+  text-align: center;
+}
+
+.service,
+.testimonial {
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #141414;
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+
+.container {
+  position: relative;
   width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+  /* max-width: 1200px; */
 }
 
-.description a {
+.backgroundimage {
+  width: 100%;
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100vh;
+  background-color: red;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
 }
 
-.description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
+.content {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  max-width: 80%;
+
 }
 
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
+.h1,
+.h2,
+.h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  max-width: 100%;
-  width: var(--max-width);
+.p {
+  line-height: 25px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  color: #000;
+}
+
+
+.formoverlay {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 60%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.formoverlay input,
+.formoverlay select,
+.formoverlay button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.formoverlay .button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.servicessection {
+  padding: 40px 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.serviceitem {
+  display: inline-block;
+  width: 24em;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.serviceitem .h3 {
+  color: black;
+}
+
+.serviceitem .p {
+  color: gray;
+}
+
+.aboutsection {
+  /* display: flex;
+  align-items: center; */
+  
+  padding: 40px 20px;
 }
 
 .card {
-  padding: 1rem 1.2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 400px;
+  text-align: center;
 }
 
-.card span {
-  display: inline-block;
-  transition: transform 200ms;
+.cardimage {
+  width: 100%;
+  height: auto;
 }
 
-.card h2 {
-  font-weight: 600;
-  margin-bottom: 0.7rem;
+.cardcontent {
+  padding: 16px;
 }
 
-.card p {
+.cardtitle {
   margin: 0;
-  opacity: 0.6;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  max-width: 30ch;
-  text-wrap: balance;
+  font-size: 1.5em;
 }
 
-.center {
+.carddescription {
+  color: #666;
+  margin-top: 8px;
+}
+
+.experiencebadge {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.experiencebadge .h3 {
+  color: red;
+  margin: 0;
+}
+
+.experiencebadge .p {
+  color: gray;
+  margin: 0;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.featureitem {
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+}
+
+.featureitem .img {
+  width: 50px;
+  height: auto;
+}
+
+.featureitem .h4 {
+  color: black;
+}
+
+.featureitem .p {
+  color: gray;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #555;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #bbb;
+}
+
+.tab.active {
+  color: #fff;
+  border-bottom: 2px solid #ff3333;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.contenttitle {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.contentdescription {
+  margin-top: 10px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.features .li {
+  margin: 10px 0;
+}
+
+.readmore {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff3333;
+  color: #fff;
+  text-decoration: none;
+}
+.overlays {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  padding: 4rem 0;
+}
+.formoverlays input,
+.formoverlays textarea,
+.formoverlays button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
 }
 
-.center::before {
-  background: var(--secondary-glow);
-  border-radius: 50%;
-  width: 480px;
-  height: 360px;
-  margin-left: -400px;
-}
-
-.center::after {
-  background: var(--primary-glow);
-  width: 240px;
-  height: 180px;
-  z-index: -1;
-}
-
-.center::before,
-.center::after {
-  content: "";
-  left: 50%;
-  position: absolute;
-  filter: blur(45px);
-  transform: translateZ(0);
-}
-
-.logo {
-  position: relative;
-}
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-  }
-
-  .card:hover span {
-    transform: translateX(4px);
-  }
-}
-
-@media (prefers-reduced-motion) {
-  .card:hover span {
-    transform: none;
-  }
-}
-
-/* Mobile */
-@media (max-width: 700px) {
-  .content {
-    padding: 4rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-    margin-bottom: 120px;
-    max-width: 320px;
-    text-align: center;
-  }
-
-  .card {
-    padding: 1rem 2.5rem;
-  }
-
-  .card h2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .center {
-    padding: 8rem 0 6rem;
-  }
-
-  .center::before {
-    transform: none;
-    height: 300px;
-  }
-
-  .description {
-    font-size: 0.8rem;
-  }
-
-  .description a {
-    padding: 1rem;
-  }
-
-  .description p,
-  .description div {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-  }
-
-  .description p {
-    align-items: center;
-    inset: 0 0 auto;
-    padding: 2rem 1rem 1.4rem;
-    border-radius: 0;
-    border: none;
-    border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
-    background: linear-gradient(
-      to bottom,
-      rgba(var(--background-start-rgb), 1),
-      rgba(var(--callout-rgb), 0.5)
-    );
-    background-clip: padding-box;
-    backdrop-filter: blur(24px);
-  }
-
-  .description div {
-    align-items: flex-end;
-    pointer-events: none;
-    inset: auto 0 0;
-    padding: 2rem;
-    height: 200px;
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      rgb(var(--background-end-rgb)) 40%
-    );
-    z-index: 1;
-  }
-}
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
-    grid-template-columns: repeat(2, 50%);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
+.formoverlays .button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
 }
