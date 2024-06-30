@@ -92,7 +92,7 @@ export default function ExpertHome() {
                 <div className="d-flex justify-content-evenly flex-wrap flex-md-nowrap">
                     <div className={`${styles.container} p-3`}>
                         <div>
-                            <Image src="/worker (1).png" alt="image" width={400} height={450} />
+                            <Image src="/worker (1).png" alt="image" width={400} height={450} className="img-fluid"/>
                         </div>
                         <div className={`${styles.formoverlay} text-center p-3`}style={{ width: "300px" }} >
                             <h3 className={`m-2 text-dark ${styles.h3}`}>Guy Hawkins</h3>
