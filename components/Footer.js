@@ -121,7 +121,7 @@ export default function Footer() {
                     <div className={styles.container + "col-12 col-md-10 col-lg-8 position-relative"} style={{ boxShadow: '0 4px 8px whitesmoke' }}>
                         <Image src="/house.png" alt="image" width={400} height={450} className={styles.backgroundimage + "img-fluid w-100"} style={{ height: '40vh' }} />
 
-                        <div className={styles.overlay + " d-flex align-items-center justify-content-center"} style={{ height: "100%" }}>
+                        <div className={styles.overlays + " d-flex align-items-center justify-content-center"} style={{ height: "100%" }}>
                             <div className={styles.content + "text-center text-white"}>
                                 <h1>Our Newsletters</h1>
                                 <form action="#" method="POST" className="d-flex flex-column align-items-center">
