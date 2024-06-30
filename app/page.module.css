@@ -321,7 +321,7 @@
 .formoverlays input,
 .formoverlays textarea,
 .formoverlays button {
-/*   padding: 10px; */
+  padding: 5px;
   margin: 5px;
 /*   border: none; */
   border-radius: 5px;
