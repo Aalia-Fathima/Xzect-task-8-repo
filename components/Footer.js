@@ -9,7 +9,7 @@
 //             <div style={{ display: 'flex', justifyContent: 'center' }}>
 //                 <div className={styles.container} style={{ width: '90%', height: '40vh', boxShadow: '0 4px 8px whitesmoke' }}>
 //                     <img src="house.png" alt="Background Image" className={styles.backgroundimage} style={{ height: '40vh' }} />
-//                     <div className={styles.overlayed} style={{ height: '100vh' }}>
+//                     <div className={styles.overlays} style={{ height: '100vh' }}>
 //                         <div className={styles.content}>
 //                             <h1>Our Newsletters</h1>
 //                             <form action="#" method="POST">
