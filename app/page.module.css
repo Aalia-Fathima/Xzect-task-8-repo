@@ -332,3 +332,15 @@
   color: white;
   cursor: pointer;
 }
+.formoverlay {
+  position: relative;
+  bottom: 20px;
+  left: 50%;
+  width: 60%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
