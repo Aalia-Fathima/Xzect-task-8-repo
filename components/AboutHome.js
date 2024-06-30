@@ -20,12 +20,12 @@ export default function AboutHome() {
                 <p className={styles.p} style={{color:"black"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse varius etiam est. Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor sagittis amet odio est. Sit semper et velit fusce.</p>
                 <div className={styles.features}>
                     <div className={styles.featureitem}>
-                        <div><FontAwesomeIcon icon={faPenRuler} style={{ color: "black", }} fontSize={40}/></div><br/>
+                        <div><FontAwesomeIcon icon={faPenRuler} style={{ color: "red", }} fontSize={40}/></div><br/>
                         <h4 style={{color:"black",fontSize:"large"}} className={styles.h3}>Quality Materials</h4>
                         <p className={styles.p}>Amet minim mollit deserunt ullamco sit enim.</p>
                     </div>
                     <div className={styles.featureitem}>
-                        <div><FontAwesomeIcon icon={faUser} style={{ color: "black", }} fontSize={40}/></div><br/>
+                        <div><FontAwesomeIcon icon={faUser} style={{ color: "red", }} fontSize={40}/></div><br/>
                         <h4 style={{color:"black",fontSize:"large"}} className={styles.h3}>Expert Engineer</h4>
                         <p className={styles.p}>Amet minim mollit deserunt ullamco sit enim.</p>
                     </div>
