@@ -101,7 +101,7 @@ export default function ExpertHome() {
                     </div>
                     <div className={`${styles.container} p-3`}>
                         <div>
-                            <Image src="/worker (2).png" alt="image" width={400} height={450} className="img-fluid">
+                            <Image src="/worker (2).png" alt="image" width={400} height={450} className="img-fluid"/>
                         </div>
                         <div className={`${styles.formoverlay} text-center p-3`}style={{ width: "300px" }} >
                             <h3 className={`m-2 text-dark ${styles.h3}`}>Cody Fisher</h3>
@@ -110,7 +110,7 @@ export default function ExpertHome() {
                     </div>
                     <div className={`${styles.container} p-3`}>
                         <div>
-                            <Image src="/worker (3).png" alt="image" width={400} height={450} className="img-fluid">
+                            <Image src="/worker (3).png" alt="image" width={400} height={450} className="img-fluid"/>
                         </div>
                         <div className={`${styles.formoverlay} text-center p-3`} style={{ width: "300px" }}>
                             <h6 className={`m-2 text-dark ${styles.h3}`}>Brooklyn Simmons</h6>
