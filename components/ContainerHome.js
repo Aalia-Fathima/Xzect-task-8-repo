@@ -22,7 +22,7 @@ export default function ContainerHome() {
                         <form action="#" method="POST">
                             <input type="text" name="name" placeholder="Name" required />
                             <input type="text" name="email" placeholder="Your Email" required />
-                            <input type="text" name="phone" placeholder="Phone Number" required />
+                            <input type="text" name="phone" placeholder="Phone Number" required /><br/>
                             <button type="submit" className={styles.button}>SUBMIT NOW</button>
                         </form>
                     </div>
