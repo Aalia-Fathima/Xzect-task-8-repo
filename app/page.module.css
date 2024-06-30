@@ -148,13 +148,15 @@
 }
 
 .servicessection {
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .serviceitem {
-  display: inline-block;
+
   width: 24em;
   padding: 20px;
   box-sizing: border-box;
@@ -171,7 +173,7 @@
 .aboutsection {
   /* display: flex;
   align-items: center; */
-  
+
   padding: 40px 20px;
 }
 
@@ -307,6 +309,7 @@
   color: #fff;
   text-decoration: none;
 }
+
 .overlays {
   position: absolute;
   top: 0;
@@ -318,12 +321,13 @@
   justify-content: center;
   align-items: center;
 }
+
 .formoverlays input,
 .formoverlays textarea,
 .formoverlays button {
   padding: 5px;
   margin: 5px;
-/*   border: none; */
+  /*   border: none; */
   border-radius: 5px;
 }
 
@@ -332,17 +336,14 @@
   color: white;
   cursor: pointer;
 }
+
 .formoverlays {
-/*   position: relative; */
-  bottom: 20px;
-  left: 50%;
+
   width: 80%;
-/*   transform: translateX(-50%); */
-  padding-bottom: 20px !important;
-  padding-top: 20px !important;
+  padding-bottom: 50px;
+  padding-top: 50px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
-

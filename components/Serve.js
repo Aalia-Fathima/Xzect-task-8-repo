@@ -8,21 +8,21 @@ export default function Serve() {
             <div className={styles.serviceitem}>
                 <div>
                 <FontAwesomeIcon icon={faUser} color="red" fontSize={40}/>
-                </div>
+                </div><br/>
                 <h3>Expert Engineer</h3>
                 <p className={styles.p}>Suspendisse varius etiam est vitae dui tempus nec vitae orci sodales metus velit nec at diam in sed.</p>
             </div>
             <div className={styles.serviceitem}>
                 <div>
                 <FontAwesomeIcon icon={faPenRuler} color="red" fontSize={40}/> 
-                </div>
+                </div><br/>
                 <h3>Quality Materials</h3>
                 <p className={styles.p}>Suspendisse varius etiam est vitae dui tempus nec vitae orci sodales metus velit nec at diam in sed.</p>
             </div>
             <div className={styles.serviceitem}>
                 <div>
                 <FontAwesomeIcon icon={faFileSignature} color="red" fontSize={40}/>
-                </div>
+                </div><br/>
                 <h3>Free Estimates</h3>
                 <p className={styles.p}>Suspendisse varius etiam est vitae dui tempus nec vitae orci sodales metus velit nec at diam in sed.</p>
             </div>
