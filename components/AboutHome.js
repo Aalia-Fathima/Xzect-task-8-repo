@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenRuler,faUser } from '@fortawesome/free-solid-svg-icons';
 export default function AboutHome() {
     return (
-        <section className={`${styles.aboutsection} d-flex flex-md-nowrap flex-wrap align-items-center justify-content-evenly`}>
+        <section className={`${styles.aboutsection} d-flex flex-md-nowrap flex-wrap align-items-center justify-content-evenly gap-2`}>
             <div style={{ width:"50em", display: 'flex', gap: 20,justifyContent:"center" }} className="flex-md-nowrap flex-wrap">
                 <div>
                     <Image src="/roof (1).png" alt="Worker Image" width={300} height={500}/>
