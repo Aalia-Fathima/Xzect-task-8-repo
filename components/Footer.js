@@ -125,7 +125,7 @@ export default function Footer() {
                             <div className={styles.content + "text-center text-white"}>
                                 <h1>Our Newsletters</h1>
                                 <form action="#" method="POST" className="d-flex flex-column align-items-center">
-                                    <input type="email" name="email" className="form-control mb-3" placeholder="Your Email" required style={{ width: "20vw" }} />
+                                    <input type="email" name="email" className="form-control mb-3" placeholder="Your Email" required style={{ width: "40vw" }} />
                                     <button type="submit" className="btn btn-primary">SUBSCRIBE NOW</button>
                                 </form>
                             </div>
