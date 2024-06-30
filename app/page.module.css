@@ -338,6 +338,8 @@
   left: 50%;
   width: 80%;
   transform: translateX(-50%);
+  padding-bottom:20px;
+  padding-top:20px
   background-color: white;
   padding: 20px;
   border-radius: 10px;
