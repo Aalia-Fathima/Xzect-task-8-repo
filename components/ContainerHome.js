@@ -16,7 +16,7 @@ export default function ContainerHome() {
                             <button className={styles.button}>MAKE APPOINTMENT</button>
                         </div>
                     </div>
-                    <div style={{ height: "20vh" }}></div>
+                    <div style={{ height: "15vh" }}></div>
                     <div style={{display: "flex", justifyContent: "center" }}>
                         <div className={styles.formoverlays} style={{ textAlign: "center"}}>
                             <h1 className={styles.h1} style={{ fontSize: "2em" }}>REQUEST FOR A SERVICE</h1>
