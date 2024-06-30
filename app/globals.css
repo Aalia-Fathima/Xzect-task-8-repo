@@ -70,6 +70,7 @@ a {
 html {
   color-scheme: light;
 } */
+html,
 body {
   font-family: Arial, sans-serif;
   margin: 0;
