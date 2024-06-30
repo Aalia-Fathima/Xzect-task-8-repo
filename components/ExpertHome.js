@@ -144,7 +144,7 @@ export default function ExpertHome() {
                 </div>
             </section>
             <section className="bg-danger py-4">
-                <div className="d-flex justify-content-evenly flex-wrap">
+                <div className="d-flex justify-content-evenly flex-wrap gap-2">
                     <img src="icon (1).png" alt="image" />
                     <img src="icon (2).png" alt="image" />
                     <img src="icon (1).png" alt="image" />
