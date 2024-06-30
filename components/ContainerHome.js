@@ -8,7 +8,7 @@ export default function ContainerHome() {
                 <div className={styles.container}>
                 <Image src="/roofer.png" alt="Worker Image" width={300} height={200} className={styles.backgroundimage}/>
 
-                    <div className={styles.overlays}>
+                    <div className={styles.overlays} style={{height: "100vh"}}>
                         <div className={styles.content}>
                             <h1 className={styles.h1}>BEST ROOFING SERVICE & CONSULTING</h1>
                             <p style={{ wordWrap: "break-word" }} className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit Turpis
