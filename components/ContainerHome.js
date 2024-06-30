@@ -17,7 +17,7 @@ export default function ContainerHome() {
                         </div>
                     </div>
                     <div style={{ height: "20vh" }}></div>
-                    <div className={styles.formoverlays} style={{ textAlign: "center" }}>
+                    <div className={styles.formoverlays} style={{ textAlign: "center",paddingBottom: "20px",paddingTop: "20px"}}>
                         <h1 className={styles.h1} style={{fontSize:"2em"}}>REQUEST FOR A SERVICE</h1>
                         <form action="#" method="POST">
                             <input type="text" name="name" placeholder="Name" required />
